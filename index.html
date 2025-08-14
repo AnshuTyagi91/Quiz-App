@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="intro">
+      <h1>Welcome to the <span class="highlight">Frontend Quiz!</span></h1>
+      <p class="subtext">Pick a subject to get started.</p>
+    </section>
+    
+    <section class="quiz-options">
+      <div class="theme-toggle">
+        <span>🌞</span>
+        <label class="switch">
+          <input type="checkbox" id="themeSwitch" />
+          <span class="slider"></span>
+        </label>
+        <span>🌙</span>
+      </div>
+
+      <ul class="subject-list">
+        <li class="subject"><span class="icon">💻</span> HTML</li>
+        <li class="subject"><span class="icon">🎨</span> CSS</li>
+        <li class="subject"><span class="icon">📜</span> Javascript</li>
+        <li class="subject"><span class="icon">♿</span> Accessibility</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
